@@ -6,6 +6,8 @@ import Loading from "./../LoadingError/Loading";
 import { toast } from "react-toastify";
 import { updateUserProfile } from "../../Redux/Actions/userActions";
 
+
+//  Sekcija   'Profile Settings' koja se nalazi na stranici naloga
 const ProfileTabs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

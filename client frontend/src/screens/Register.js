@@ -6,6 +6,8 @@ import Loading from "../components/LoadingError/Loading";
 import { register } from "../Redux/Actions/userActions";
 import Header from "./../components/Header";
 
+
+// Sekcija za registranicu koja trazi inpute 'username' , email i password
 const Register = ({ location, history }) => {
   window.scrollTo(0, 0);
   const [name, setName] = useState("");

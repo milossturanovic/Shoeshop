@@ -7,6 +7,10 @@ import Orders from "./../components/profileComponents/Orders";
 import moment from "moment";
 import { listMyOrders } from "../Redux/Actions/OrderActions";
 
+
+
+//  Lijevi panel sekcije na stranici naloga gdje pise puno ime, datum kad se korisnik prikljucio
+//  Ispod toga se nalaze 'profile settings' i 'orders list'
 const ProfileScreen = () => {
   window.scrollTo(0, 0);
 

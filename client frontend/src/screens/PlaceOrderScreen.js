@@ -6,6 +6,10 @@ import { ORDER_CREATE_RESET } from "../Redux/Constants/OrderConstants";
 import Header from "./../components/Header";
 import Message from "./../components/LoadingError/Error";
 
+
+
+// Stranica za prikazivanje narudzbina
+
 const PlaceOrderScreen = ({ history }) => {
   window.scrollTo(0, 0);
 

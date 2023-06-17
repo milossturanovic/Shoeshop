@@ -3,6 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { savePaymentMethod } from "../Redux/Actions/cartActions";
 import Header from "./../components/Header";
 
+
+//Stranica za Paypal isplatu 
+
 const PaymentScreen = ({ history }) => {
   window.scrollTo(0, 0);
 
